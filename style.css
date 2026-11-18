@@ -141,7 +141,7 @@ a { color: inherit; }
 }
 .card-thumb {
   aspect-ratio: 16 / 9; width: 100%;
-  object-fit: cover; background: var(--bg-alt);
+  object-fit: cover; object-position: top; background: var(--bg-alt);
   border-bottom: 1px solid var(--border);
 }
 .card-body { padding: 18px 18px 8px; }
@@ -184,7 +184,7 @@ a { color: inherit; }
   font-size: 1.6rem; line-height: 1; color: var(--text); cursor: pointer;
   box-shadow: 0 1px 4px rgba(0,0,0,.15);
 }
-.dialog-thumb { aspect-ratio: 16 / 9; width: 100%; object-fit: cover; background: var(--bg-alt); }
+.dialog-thumb { aspect-ratio: 16 / 9; width: 100%; object-fit: cover; object-position: top; background: var(--bg-alt); }
 .dialog-body { padding: 20px 20px 0; }
 .dialog-body h2 { margin: 8px 0 4px; font-size: 1.4rem; }
 .dialog-body h3 {
